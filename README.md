@@ -38,9 +38,8 @@ This script checks for:
 ```bash
 git clone https://github.com/YOURNAME/axios-hack-check.git
 cd axios-hack-check
+```
 
-
-```md
 ### Notes
 - Detection only — no automatic remediation
 - Review the script before running it
@@ -78,23 +77,21 @@ MIT
 ```bash
 git clone https://github.com/YOURNAME/axios-hack-check.git
 cd axios-hack-check
+```
 
-
-```md
 ### طريقة التشغيل
 ```bash
 Unblock-File .\axios-hack-check-arabic.ps1
 .\axios-hack-check-arabic.ps1
+```
 
-```md
 ### في حال تم الحظر
 ```bash
 powershell -ExecutionPolicy Bypass -File .\axios-hack-check-arabic.ps1
+```
 
-
-
-```md
 ### وظيفة السكربت
+
 يقوم السكربت بفحص:
 
 1. إصدارات axios المتأثرة (1.14.1, 0.30.4)
@@ -102,4 +99,3 @@ powershell -ExecutionPolicy Bypass -File .\axios-hack-check-arabic.ps1
 3. وجود مكتبة plain-crypto-js
 4. آثار محتملة لبرامج RAT (مثل wt.exe أو ملفات مؤقتة)
 5. اتصال نشط مع خادم تحكم (C2) (142.11.206.73)
-
