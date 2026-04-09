@@ -35,27 +35,21 @@ This script checks for:
 
 ### Option 3 — Clone repository (for developers)
 
-```bash
-git clone https://github.com/YOURNAME/axios-hack-check.git
-cd axios-hack-check
-```
+    git clone https://github.com/YOURNAME/axios-hack-check.git
+    cd axios-hack-check
 
 ---
 
 ## Run
 
-```powershell
-Unblock-File .\axios-hack-check-arabic.ps1
-.\axios-hack-check-arabic.ps1
-```
+    Unblock-File .\axios-hack-check-arabic.ps1
+    .\axios-hack-check-arabic.ps1
 
 ---
 
 ## If blocked
 
-```powershell
-powershell -ExecutionPolicy Bypass -File .\axios-hack-check-arabic.ps1
-```
+    powershell -ExecutionPolicy Bypass -File .\axios-hack-check-arabic.ps1
 
 ---
 
@@ -111,27 +105,21 @@ MIT
 
 ### الخيار 3 — نسخ المشروع (للمطورين)
 
-```bash
-git clone https://github.com/YOURNAME/axios-hack-check.git
-cd axios-hack-check
-```
+    git clone https://github.com/YOURNAME/axios-hack-check.git
+    cd axios-hack-check
 
 ---
 
 ## طريقة التشغيل
 
-```powershell
-Unblock-File .\axios-hack-check-arabic.ps1
-.\axios-hack-check-arabic.ps1
-```
+    Unblock-File .\axios-hack-check-arabic.ps1
+    .\axios-hack-check-arabic.ps1
 
 ---
 
 ## في حال تم الحظر
 
-```powershell
-powershell -ExecutionPolicy Bypass -File .\axios-hack-check-arabic.ps1
-```
+    powershell -ExecutionPolicy Bypass -File .\axios-hack-check-arabic.ps1
 
 ---
 
