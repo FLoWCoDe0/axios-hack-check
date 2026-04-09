@@ -6,7 +6,6 @@ PowerShell script to detect common indicators related to the recent Axios/npm su
 
 ---
 
-## English
 
 ### What it does
 
@@ -79,8 +78,6 @@ It does not guarantee full system integrity or absence of compromise.
 MIT
 
 ---
-
-## العربية
 
 > ⚠️ هذه النسخة تحتوي على مخرجات باللغة العربية (معكوسة بسبب مشاكل عرض PowerShell)
 
