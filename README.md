@@ -1,4 +1,4 @@
-# Axios Hack Check (Windows)
+﻿# Axios Hack Check (Windows)
 
 PowerShell script to detect common indicators related to the recent Axios/npm supply-chain compromise on Windows systems.
 
@@ -39,7 +39,6 @@ This script checks for:
 git clone https://github.com/YOURNAME/axios-hack-check.git
 cd axios-hack-check
 ```
-
 ### Notes
 - Detection only — no automatic remediation
 - Review the script before running it
@@ -56,8 +55,6 @@ MIT
 
 --------------------------------------------------------------------------------------------------------------------
 ⚠️ هذه النسخة تحتوي على مخرجات باللغة العربية (معكوسة بسبب مشاكل عرض PowerShell)
-
-
 
 ## التحميل
 
