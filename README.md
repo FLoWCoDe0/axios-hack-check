@@ -40,16 +40,18 @@ git clone https://github.com/YOURNAME/axios-hack-check.git
 cd axios-hack-check
 
 
-Notes
-Detection only — no automatic remediation
-Review the script before running it
-Arabic output is reversed intentionally for terminal compatibility
-Disclaimer
+```md
+### Notes
+- Detection only — no automatic remediation
+- Review the script before running it
+- Arabic output is reversed intentionally for terminal compatibility
+
+## Disclaimer
 
 This script checks for known indicators only.
 It does not guarantee full system integrity or absence of compromise.
 
-License
+### License
 
 MIT
 
@@ -57,7 +59,7 @@ MIT
 ⚠️ هذه النسخة تحتوي على مخرجات باللغة العربية (معكوسة بسبب مشاكل عرض PowerShell)
 
 
-```md
+
 ## التحميل
 
 ### الخيار 1 — تحميل المشروع كملف ZIP (الموصى به)
@@ -78,24 +80,26 @@ git clone https://github.com/YOURNAME/axios-hack-check.git
 cd axios-hack-check
 
 
-
-طريقة التشغيل
+```md
+### طريقة التشغيل
+```bash
 Unblock-File .\axios-hack-check-arabic.ps1
 .\axios-hack-check-arabic.ps1
 
-في حال تم الحظر
+```md
+### في حال تم الحظر
+```bash
 powershell -ExecutionPolicy Bypass -File .\axios-hack-check-arabic.ps1
 
 
 
-
-وظيفة السكربت
-
+```md
+### وظيفة السكربت
 يقوم السكربت بفحص:
 
-إصدارات axios المتأثرة (1.14.1, 0.30.4)
-وجود مؤشرات مشبوهة داخل package-lock.json
-وجود مكتبة plain-crypto-js
-آثار محتملة لبرامج RAT (مثل wt.exe أو ملفات مؤقتة)
-اتصال نشط مع خادم تحكم (C2) (142.11.206.73)
+1. إصدارات axios المتأثرة (1.14.1, 0.30.4)
+2. وجود مؤشرات مشبوهة داخل package-lock.json
+3. وجود مكتبة plain-crypto-js
+4. آثار محتملة لبرامج RAT (مثل wt.exe أو ملفات مؤقتة)
+5. اتصال نشط مع خادم تحكم (C2) (142.11.206.73)
 
